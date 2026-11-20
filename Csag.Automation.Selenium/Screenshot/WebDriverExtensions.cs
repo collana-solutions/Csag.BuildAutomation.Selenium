@@ -1,4 +1,4 @@
-﻿namespace Neolution.Automation.Selenium.Screenshot
+﻿namespace Csag.Automation.Selenium.Screenshot
 {
     using System;
     using System.Globalization;

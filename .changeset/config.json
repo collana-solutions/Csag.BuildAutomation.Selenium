@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@4.0.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "collana-solutions/Csag.BuildAutomation.Selenium" }
+  ],
+  "commit": false,
+  "fixed": [["@collana-solutions/csag-automation-selenium"]],
+  "linked": [],
+  "access": "restricted",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": [],
+  "privatePackages": { "version": true, "tag": true }
+}

@@ -1,4 +1,4 @@
-﻿namespace Neolution.Automation.Selenium
+﻿namespace Csag.Automation.Selenium
 {
     using System;
     using System.Diagnostics.CodeAnalysis;
