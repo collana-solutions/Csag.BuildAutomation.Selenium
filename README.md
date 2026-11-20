@@ -50,7 +50,7 @@ var screenshotPath = driver.TakeScreenshot("search results");
 | `DisablePdfViewer` | `false` | Chrome: download PDF files instead of showing them |
 | `DefaultDownloadDirectory` | none | Chrome: directory for downloads |
 
-Firefox uses `WindowSize` and `AcceptInsecureCertificates` only. On a build agent without a display, set `Headless` to `true`. The certificate options switch off TLS validation for every host, so use them only against test servers you control.
+Firefox uses `WindowSize` and `AcceptInsecureCertificates` only, so it always opens a window. On a build agent without a display, use Chrome with `Headless` set to `true`. The certificate options switch off TLS validation for every host, so use them only against test servers you control.
 
 ### Element helpers
 
