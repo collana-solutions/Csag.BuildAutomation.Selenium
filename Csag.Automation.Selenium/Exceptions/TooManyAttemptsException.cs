@@ -1,4 +1,4 @@
-﻿namespace Neolution.Automation.Selenium.Exceptions
+﻿namespace Csag.Automation.Selenium.Exceptions
 {
     using System;
     using OpenQA.Selenium;

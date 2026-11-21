@@ -1,4 +1,4 @@
-﻿namespace Neolution.Automation.Selenium.Extensions
+﻿namespace Csag.Automation.Selenium.Extensions
 {
     using SeleniumExtras.WaitHelpers;
 

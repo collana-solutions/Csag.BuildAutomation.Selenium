@@ -1,8 +1,8 @@
-﻿namespace Neolution.Automation.Selenium.Extensions
+﻿namespace Csag.Automation.Selenium.Extensions
 {
     using System;
     using System.Threading;
-    using Neolution.Automation.Selenium.Exceptions;
+    using Csag.Automation.Selenium.Exceptions;
     using OpenQA.Selenium;
     using OpenQA.Selenium.Support.UI;
     using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;
