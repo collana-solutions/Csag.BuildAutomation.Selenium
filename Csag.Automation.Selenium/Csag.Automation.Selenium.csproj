@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
     <LangVersion>8</LangVersion>
-    <Version>0.1.0</Version>
+    <Version>1.0.0</Version>
     <Description>Extensions for robust Selenium tests: element selection that waits and retries, click and input helpers that recover from stale or hidden elements, a WebDriverFactory for Chrome and Firefox, and screenshots.</Description>
     <PackageTags>selenium webdriver ui-testing test-automation</PackageTags>
     <!-- The exceptions keep their protected serialization constructors, which derived classes may call.
