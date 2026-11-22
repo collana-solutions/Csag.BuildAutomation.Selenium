@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <LangVersion>8</LangVersion>
+    <Version>0.1.0</Version>
+    <Description>Extensions for robust Selenium tests: element selection that waits and retries, click and input helpers that recover from stale or hidden elements, a WebDriverFactory for Chrome and Firefox, and screenshots.</Description>
+    <PackageTags>selenium webdriver ui-testing test-automation</PackageTags>
+    <!-- The exceptions keep their protected serialization constructors, which derived classes may call.
+         Since .NET 8 the Exception base constructor they chain to is obsolete. -->
+    <NoWarn>$(NoWarn);SYSLIB0051</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="Neolution.CodeAnalysis" Version="2.5.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <!-- Selenium.WebDriver 3.141.0 only asks for Newtonsoft.Json 10.0.3 or later, which has a high
+         severity vulnerability (GHSA-5crp-9r3c-p9vr). This reference lifts it to a fixed version. -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+</Project>
