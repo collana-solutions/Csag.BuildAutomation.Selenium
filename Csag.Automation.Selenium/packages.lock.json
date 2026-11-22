@@ -13,13 +13,12 @@
       },
       "Neolution.CodeAnalysis": {
         "type": "Direct",
-        "requested": "[2.5.9, )",
-        "resolved": "2.5.9",
-        "contentHash": "0Nwz8ZG8NndY2W+eudgHOM3iNcMeVNk8tBUNBw0FF552/aRzDTa+wVSzEk6i/HPR0gzb69TQwpaagxjYgNszHA==",
+        "requested": "[3.2.2, )",
+        "resolved": "3.2.2",
+        "contentHash": "9eBWPh7DNlBje/vH1q5Z4Q5FjwahYavPE2NsJO78IRcQ0xDrhor2FY8DxLA26BsweMqn4Ej0cN5dnyFexjl+ww==",
         "dependencies": {
-          "Microsoft.CodeAnalysis.FxCopAnalyzers": "3.3.1",
-          "SonarAnalyzer.CSharp": "8.14.0.22654",
-          "StyleCop.Analyzers": "1.1.118"
+          "SonarAnalyzer.CSharp": "9.20.0.85982",
+          "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
       },
       "Newtonsoft.Json": {
@@ -37,46 +36,15 @@
           "Newtonsoft.Json": "10.0.3"
         }
       },
-      "Microsoft.CodeAnalysis.FxCopAnalyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "O6L7wOD6dmytWZr4ulw6wLYk8QmsO/TlBHyWOB2OQKnUm31JGOXEncJjVm8Fw24BDzP22wfsleWFidiNU/DIsA==",
-        "dependencies": {
-          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "[3.3.1]",
-          "Microsoft.CodeQuality.Analyzers": "[3.3.1]",
-          "Microsoft.NetCore.Analyzers": "[3.3.1]",
-          "Microsoft.NetFramework.Analyzers": "[3.3.1]"
-        }
-      },
-      "Microsoft.CodeAnalysis.VersionCheckAnalyzer": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "ZUMf70abtWvwevkLFOlEHDck81oZCsi9jBHODDSSH2YPQdtCKzeQfaWWnAmn2ii7N3Q2V2arOj4Mu8ZTTSs3PA=="
-      },
-      "Microsoft.CodeQuality.Analyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "h6o+zBUf47OFarRQn6LjwUNFvRUyUWLWcnunw6vLCxSDBmgPDQCsrsWpEtMz/+NKBvOeikVJobscarx3Wgtbiw=="
-      },
-      "Microsoft.NetCore.Analyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "8Ez3EImhFioAsB4bR2bBLA3Pkcz8K/VI6jPdnm98nLu+rodZU8s8QRjRnkrQEnC6VcVAVZJ8W7DL9yrfDsgjqQ=="
-      },
-      "Microsoft.NetFramework.Analyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "EI5Afqt03Kq4Wy5Ot6nGvnwunisM9ORi5L9fteCCOK1Wh283wAhM1dIOWOsBN3jlFbw1VTeVPR8oPz9J9xlHLw=="
-      },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
-        "resolved": "8.14.0.22654",
-        "contentHash": "OxJIffzU1JtRTE+wL+zBpzZueA9N7iKjBgkFlxjm1QDymmDlAnLyjXAVyWph5Hbpz1gVvAG1rWYxpQA4w2FwVQ=="
+        "resolved": "9.20.0.85982",
+        "contentHash": "c0IYtFg4mYusTafTy0Bs5wev45vRKNShkuoWyQyPMbC6imEFHL7tY/7xbbUJd6JNLYx5vP8wyi2LgiBsMHqb2Q=="
       },
-      "StyleCop.Analyzers": {
+      "StyleCop.Analyzers.Unstable": {
         "type": "Transitive",
-        "resolved": "1.1.118",
-        "contentHash": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw=="
+        "resolved": "1.2.0.556",
+        "contentHash": "zvn9Mqs/ox/83cpYPignI8hJEM2A93s2HkHs8HYMOAQW0PkampyoErAiIyKxgTLqbbad29HX/shv/6LGSjPJNQ=="
       }
     },
     "net8.0": {
@@ -91,13 +59,12 @@
       },
       "Neolution.CodeAnalysis": {
         "type": "Direct",
-        "requested": "[2.5.9, )",
-        "resolved": "2.5.9",
-        "contentHash": "0Nwz8ZG8NndY2W+eudgHOM3iNcMeVNk8tBUNBw0FF552/aRzDTa+wVSzEk6i/HPR0gzb69TQwpaagxjYgNszHA==",
+        "requested": "[3.2.2, )",
+        "resolved": "3.2.2",
+        "contentHash": "9eBWPh7DNlBje/vH1q5Z4Q5FjwahYavPE2NsJO78IRcQ0xDrhor2FY8DxLA26BsweMqn4Ej0cN5dnyFexjl+ww==",
         "dependencies": {
-          "Microsoft.CodeAnalysis.FxCopAnalyzers": "3.3.1",
-          "SonarAnalyzer.CSharp": "8.14.0.22654",
-          "StyleCop.Analyzers": "1.1.118"
+          "SonarAnalyzer.CSharp": "9.20.0.85982",
+          "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
       },
       "Newtonsoft.Json": {
@@ -115,46 +82,15 @@
           "Newtonsoft.Json": "10.0.3"
         }
       },
-      "Microsoft.CodeAnalysis.FxCopAnalyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "O6L7wOD6dmytWZr4ulw6wLYk8QmsO/TlBHyWOB2OQKnUm31JGOXEncJjVm8Fw24BDzP22wfsleWFidiNU/DIsA==",
-        "dependencies": {
-          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "[3.3.1]",
-          "Microsoft.CodeQuality.Analyzers": "[3.3.1]",
-          "Microsoft.NetCore.Analyzers": "[3.3.1]",
-          "Microsoft.NetFramework.Analyzers": "[3.3.1]"
-        }
-      },
-      "Microsoft.CodeAnalysis.VersionCheckAnalyzer": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "ZUMf70abtWvwevkLFOlEHDck81oZCsi9jBHODDSSH2YPQdtCKzeQfaWWnAmn2ii7N3Q2V2arOj4Mu8ZTTSs3PA=="
-      },
-      "Microsoft.CodeQuality.Analyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "h6o+zBUf47OFarRQn6LjwUNFvRUyUWLWcnunw6vLCxSDBmgPDQCsrsWpEtMz/+NKBvOeikVJobscarx3Wgtbiw=="
-      },
-      "Microsoft.NetCore.Analyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "8Ez3EImhFioAsB4bR2bBLA3Pkcz8K/VI6jPdnm98nLu+rodZU8s8QRjRnkrQEnC6VcVAVZJ8W7DL9yrfDsgjqQ=="
-      },
-      "Microsoft.NetFramework.Analyzers": {
-        "type": "Transitive",
-        "resolved": "3.3.1",
-        "contentHash": "EI5Afqt03Kq4Wy5Ot6nGvnwunisM9ORi5L9fteCCOK1Wh283wAhM1dIOWOsBN3jlFbw1VTeVPR8oPz9J9xlHLw=="
-      },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
-        "resolved": "8.14.0.22654",
-        "contentHash": "OxJIffzU1JtRTE+wL+zBpzZueA9N7iKjBgkFlxjm1QDymmDlAnLyjXAVyWph5Hbpz1gVvAG1rWYxpQA4w2FwVQ=="
+        "resolved": "9.20.0.85982",
+        "contentHash": "c0IYtFg4mYusTafTy0Bs5wev45vRKNShkuoWyQyPMbC6imEFHL7tY/7xbbUJd6JNLYx5vP8wyi2LgiBsMHqb2Q=="
       },
-      "StyleCop.Analyzers": {
+      "StyleCop.Analyzers.Unstable": {
         "type": "Transitive",
-        "resolved": "1.1.118",
-        "contentHash": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw=="
+        "resolved": "1.2.0.556",
+        "contentHash": "zvn9Mqs/ox/83cpYPignI8hJEM2A93s2HkHs8HYMOAQW0PkampyoErAiIyKxgTLqbbad29HX/shv/6LGSjPJNQ=="
       }
     }
   }
