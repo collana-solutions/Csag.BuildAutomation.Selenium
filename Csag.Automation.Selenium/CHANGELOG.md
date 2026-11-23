@@ -1,5 +1,11 @@
 # @collana-solutions/csag-automation-selenium
 
+## 1.0.1
+
+### Patch Changes
+
+- [#7](https://github.com/collana-solutions/Csag.BuildAutomation.Selenium/pull/7) [`c55da6b`](https://github.com/collana-solutions/Csag.BuildAutomation.Selenium/commit/c55da6b2c9ec442f6227e5827fc6d8f81cadd2a3) Thanks [@neotrow](https://github.com/neotrow)! - `SelectElement` now picks the expected wait condition once and uses it for both waits. Its behavior is unchanged: it throws the same exceptions, with the same parameter names and messages. The package is now built with the code analyzers of `Csag.CodeAnalysis` 3.3.0, a build-only dependency.
+
 ## 1.0.0
 
 ### Major Changes
