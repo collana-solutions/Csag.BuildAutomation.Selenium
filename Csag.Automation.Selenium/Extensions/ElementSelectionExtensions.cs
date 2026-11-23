@@ -40,8 +40,16 @@
                 throw new ArgumentNullException(nameof(driver));
             }
 
+            var condition = waitCondition switch
+            {
+                WaitCondition.ElementClickable => ExpectedConditions.ElementToBeClickable(selector),
+                WaitCondition.ElementExists => ExpectedConditions.ElementExists(selector),
+                WaitCondition.ElementVisible => ExpectedConditions.ElementIsVisible(selector),
+                _ => throw new ArgumentOutOfRangeException(nameof(waitCondition), waitCondition, null),
+            };
+
             // First try to wait with Selenium until the element meets the specified condition
-            EnsureWaitUntilConditionIsFulfilled();
+            driver.WaitUntilOrContinue(condition);
 
             try
             {
@@ -49,31 +57,13 @@
                 var element = driver.AttemptToSelectElement(selector);
 
                 // Very short wait just to make sure element meets the specified condition
-                EnsureWaitUntilConditionIsFulfilled(1);
+                driver.WaitUntilOrContinue(condition, 1);
 
                 return element;
             }
             catch (Exception ex)
             {
                 throw new ElementNotFoundException(selector, ex);
-            }
-
-            void EnsureWaitUntilConditionIsFulfilled(int timeout = 10)
-            {
-                switch (waitCondition)
-                {
-                    case WaitCondition.ElementClickable:
-                        driver.WaitUntilOrContinue(ExpectedConditions.ElementToBeClickable(selector), timeout);
-                        break;
-                    case WaitCondition.ElementExists:
-                        driver.WaitUntilOrContinue(ExpectedConditions.ElementExists(selector), timeout);
-                        break;
-                    case WaitCondition.ElementVisible:
-                        driver.WaitUntilOrContinue(ExpectedConditions.ElementIsVisible(selector), timeout);
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException(nameof(waitCondition), waitCondition, null);
-                }
             }
         }
 
